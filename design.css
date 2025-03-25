@@ -1,0 +1,100 @@
+
+body{
+    font-family: "quire sans", "lucida sans", sans-serif ;
+    width: 60%;
+    border: solid grey 3px;
+    padding: 0;
+    line-height: 1.5;
+    margin: auto;
+    position:relative;
+    font-size: 90%;
+    
+}
+
+* [href]{
+    font-weight: bold;
+}
+
+img{
+    float:left;
+    padding: 1% 1.5% 0 1.5%;
+} 
+
+header{
+    display:flex;
+    align-items: center;
+    background-image: url("Website_banner.png");
+    background-size: cover;
+    background-position: top;
+    width:100%;
+    border-bottom: 4px solid black;
+    top:0;
+    left:0;
+    vertical-align:center;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul li{
+    float:left;
+    width: 25%;
+}
+
+nav ul a{
+    background-color: rgb(213, 126, 224);
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    text-decoration: none;
+    display: block;
+
+}
+nav ul a.current{
+    color:black;
+}
+nav ul a:hover, nav ul a:focus{
+    background-color:rgb(203, 77, 228);
+}
+h1{
+    font-style: italic;
+    color: black;
+}
+h2,h3,p{
+    color: black;
+}
+section{
+    display: inline-block;
+    position:relative;
+    top:0;
+    left:auto;
+    width: 62%;
+    margin: 1% auto;
+    padding: 1% 1.5%;
+
+    
+}
+
+aside{
+    display: block;
+    width: 33%;
+    float: right;
+    margin: 1% auto;
+    padding: 1% 0;
+    text-align: left;
+}
+
+footer{
+    background-image: url("Footer.png");
+    background-size: cover;
+    background-position: bottom;
+    position:absolute;
+    bottom:0;
+    left:0;
+    text-align: center;
+    width:100%;
+    background-color:grey;
+    padding:0 auto;
+}
